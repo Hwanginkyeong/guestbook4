@@ -19,6 +19,7 @@ public class GuestbookController {
 	// 필드
 	@Autowired
 	private GuestbookDao guestbookDao;
+	private GuestbookVo guestbookVo;
 
 	// 생성자
 
